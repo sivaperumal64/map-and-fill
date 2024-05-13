@@ -1,56 +1,63 @@
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
+*{
+    padding: 0;
+    margin: 0;
 }
-
-h1 {
-  margin-bottom: 20px;
+h2{
+    text-align: center;
+    padding-top: 2px;
 }
-
-label {
-  margin-right: 10px;
+.box{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 60px;
+    width: 92%;
+    box-shadow: 0px 0px 7px 0px gray;
+    padding: 10px;
+    
+    
+    
 }
-
-.genre-container {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+.box1{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 60px;
+    width: 92%;
+    box-shadow: 0px 0px 7px 0px gray;
+    padding: 10px;
+    
 }
-
-.genre-box {
-  flex: 1;
-  border: 2px solid #333;
-  padding: 10px;
-  text-align: center;
+.box2{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 60px;
+    width: 92%;
+    box-shadow: 0px 0px 7px 0px gray;
+    padding: 10px;
 }
-
-#comedy {
-  background-color: #ffcc00;
+.box3{
+        margin-left: 40px;
+        margin-top: 20px;
+        height: 60px;
+        width: 92%;
+        box-shadow: 0px 0px 7px 0px gray;
+        padding: 10px;
 }
-
-#horror {
-  background-color: #cc0000;
+.box4{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 60px;
+    width: 92%;
+    box-shadow: 0px 0px 7px 0px gray;
+    padding: 10px;
 }
-
-.title {
-  font-weight: bold;
+.box5{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 60px;
+    width: 92%;
+    box-shadow: 0px 0px 7px 0px gray;
+    padding: 10px;
 }
-
-.genre {
-  font-style: italic;
-  margin-top: 5px;
-}
-
-.movies-container {
-  margin-top: 10px;
-}
-
-.movie {
-  border: 2px solid #333;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  width: 200px;
+.option{
+    margin-left: 40px;
 }
