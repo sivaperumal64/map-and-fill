@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.genre-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.genre-box {
+  flex: 1;
+  border: 2px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+#comedy {
+  background-color: #ffcc00;
+}
+
+#horror {
+  background-color: #cc0000;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.genre {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.movies-container {
+  margin-top: 10px;
+}
+
+.movie {
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}

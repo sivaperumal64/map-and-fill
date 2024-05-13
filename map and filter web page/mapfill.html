@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation System</title>
+    <link rel="stylesheet" href="./mapfill.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommendation System</h1>
+        <label for="genre">Select Genre:</label>
+        <select id="genre">
+            <option value="all">All</option>
+            <option value="comedy">Comedy</option>
+            <option value="horror">Horror</option>
+        </select>
+        <div class="genre-container">
+            <div id="comedy" class="genre-box comedy">
+                <h2>Comedy</h2>
+                <div id="comedy-movies" class="movies-container"></div>
+            </div>
+            <div id="horror" class="genre-box horror">
+                <h2>Horror</h2>
+                <div id="horror-movies" class="movies-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./mapfill.js"></script>
+</body>
+</html>
